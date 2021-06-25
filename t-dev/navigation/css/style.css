@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    left: 20%;
+    top: 80px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 15px 25px;
+    width: 120px;
+    height: 30px;
+    background:black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.wrapper>ul{
+    display: flex;
+    position: relative;
+}
+.wrapper ul li ul{
+    position: absolute;
+}
+.wrapper ul li ul{
+    display: none;
+}
+.wrapper ul li:hover>ul{
+    display: block;
+}
+.wrapper ul ul ul{
+    position: relative;
+    margin-left: 168px;
+    margin-top: -50px;
+}
